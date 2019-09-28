@@ -1,0 +1,642 @@
+/* NAVBAR*/
+
+.navbar {
+    position: absolute;
+    top: 30px;
+    z-index: 10;
+    background: none;
+    border: none;
+    width: auto;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.navbar-nav {
+    display: block;
+    font-size: 16px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+    float: none;
+    width: 1150px;
+    padding: 0;
+}
+
+.inner .navbar-nav {
+    width: 1070px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    opacity: 0.6;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a.logo {
+    position: relative;
+    top: -40px;
+}
+
+.nav li a,
+.nav li a:hover {
+    text-decoration: none;
+    margin-left: 100px;
+    background-color: transparent !important;
+}
+
+.navbar-header {
+    display: none;
+}
+
+.topnav {
+    height: 120px;
+    width: 100%;
+    background-image: url("img/nav-back.jpg");
+}
+
+
+/* NAVBAR ENDS*/
+
+
+/*CAROUSEL*/
+
+.bannerContainer {
+    position: relative;
+}
+
+.carousel {
+    top: 0;
+}
+
+.inner-logo img {
+    width: 110px;
+}
+
+.glyphicon {
+    color: #e7b133;
+}
+
+.carousel-caption {
+    right: 0;
+    left: 0;
+    padding-bottom: 30px;
+    bottom: inherit;
+    top: 250px;
+}
+
+.carousel-caption h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.carousel-caption h4 {
+    font-size: 22px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.carousel-indicators {
+    z-index: 1;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 550px;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background: none;
+    border-color: #e7b133;
+}
+
+
+/*CAROUSEL ENDS */
+
+.infoblock {
+    background: #000;
+    color: white;
+    height: 40px;
+}
+
+.leftinfo {
+    margin-left: 10%;
+}
+
+.rightinfo {
+    margin-right: 10%;
+    float: right;
+}
+
+.div1,
+.div2,
+.div3 {
+    text-align: justify;
+}
+
+.list-group {
+    font-size: 13px;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 1 !important;
+}
+
+
+/* FAVOURITES */
+
+.fav {
+    background-image: url("img/fruits-back.jpg");
+    width: 100%;
+    height: 635px;
+}
+
+
+/* OWL CAROUSAL*/
+
+.owl-dots {
+    position: absolute;
+    top: -20px;
+    right: 10px;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+    float: left;
+}
+
+.owl-dots span {
+    border: #b6b6b6;
+    height: 10px;
+    display: block;
+    width: 10px;
+    border-radius: 100%;
+    background: #b6b6b6;
+    margin-right: 10px;
+}
+
+.owl-dots .active span {
+    border: #e7b133;
+    background: #e7b133;
+}
+
+.parent-box {
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 90px;
+    padding: 0%;
+    float: left;
+    position: relative;
+    width: 1172px;
+    height: 373px;
+}
+
+.box {
+    margin: 2%;
+    float: left;
+    position: relative;
+    width: 270px;
+    height: 370px;
+    background-color: #000;
+    padding: 0px;
+    background-size: 300px 400px;
+    display: block;
+    border-radius: 2%;
+    box-shadow: 2px black;
+}
+
+.box img {
+    display: block;
+    border-radius: 2%;
+    box-shadow: 2px black;
+}
+
+.grad {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    background: linear-gradient(to top, black 20%, transparent);
+    border-radius: 2%;
+    box-shadow: 2px black;
+}
+
+.text-left {
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: 90%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: justify;
+}
+
+.para {
+    text-align: justify;
+    margin: 4%;
+}
+
+
+/* FAVOURITES ENDS */
+
+
+/* TASTY MENU */
+
+section.one {
+    background-image: url("img/menu-back.jpg");
+    width: 100%;
+    height: 698px;
+}
+
+.tag {
+    width: 80%;
+    height: 80%;
+    float: left;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    z-index: 1000;
+    background-color: rgba(220, 150, 27, 0.5);
+    border: 2px solid #ebb00e;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 350px;
+    text-decoration: overline underline;
+}
+
+
+/* TASTY MENU ENDS */
+
+
+/* REVIEWS */
+
+.reviews {
+    background-image: url("img/fruits-back.jpg");
+    width: 100%;
+    height: 397px;
+}
+
+.reviews hr {
+    color: #000;
+    background: #000;
+    border: 0;
+    height: 1.5px;
+    width: 70px;
+}
+
+
+/* REVIEWS ENDS */
+
+p {
+    text-align: justify;
+}
+
+.imageholder {
+    margin: 2%;
+    width: 371px;
+    height: 432px;
+    padding: 0%;
+    float: left;
+    position: relative;
+    border-radius: 2%;
+    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.5);
+}
+
+.imageholder img {
+    border-radius: 2%;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.5);
+}
+
+.pagedata {
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+
+/* OUR CHEFS */
+
+.bg-image {
+    background-image: url("img/chef-back1.jpg");
+    height: 698px;
+    width: 100%;
+}
+
+#chef .imageholder {
+    margin: 2%;
+    width: 275px;
+    height: 380px;
+    padding: 0%;
+    float: left;
+    position: relative;
+}
+
+#chef .imageholder img {
+    border: rgb(220, 150, 27) 2px solid;
+}
+
+.chef-name {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+    border: rgb(220, 150, 27) 2px solid;
+}
+
+.imageholder:hover .overlay {
+    opacity: 0.8;
+}
+
+.text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.clearblock {
+    clear: both;
+}
+
+
+/* OUR CHEFS ENDS */
+
+.fill {
+    object-fit: fill;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+
+/* COMMON CLASS */
+
+.padding-0 {
+    padding: 0!important;
+}
+
+.margin-top-0 {
+    margin-top: 0!important;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px!important;
+}
+
+.full-width {
+    float: left;
+    width: 100%;
+}
+
+.full-width-padding {
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.title {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    background: linear-gradient(to right, #e7b133 0%, #945e02 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.color-white {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff !important;
+}
+
+
+/* MENU*/
+
+.menu {
+    background-image: url("img/bl.jpg");
+}
+
+
+/* MENU ENDS */
+
+
+/* PASSION */
+
+.passion-bg {
+    background-image: url("img/passion-back.jpg");
+    height: 635px;
+}
+
+#pass .imageholder {
+    margin-top: 5%;
+    width: 371px;
+    height: 432px;
+    padding: 0%;
+    float: left;
+    position: relative;
+    background-color: rgba(31, 31, 25);
+}
+
+#pass .imageholder img {
+    width: 346px;
+    height: 200px;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.tex {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 90%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.para {
+    text-align: justify;
+    margin: 4%;
+}
+
+
+/* PASSION ENDS */
+
+iframe {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    /* IE 6-9 */
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 10px!important;
+}
+
+footer h6 {
+    line-height: 2;
+    margin: 0;
+    color: rgb(154, 154, 154);
+}
+
+
+/* FOOTER ENDS*/
+
+
+/* FOR RESPONSIVE DESIGN */
+
+@media(max-width:768px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    .gallery img {
+        max-width: 100%;
+        width: 100%;
+    }
+    .pagedata {
+        width: 100%;
+    }
+    .imageholder {
+        margin: 0 0 40px;
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        padding: 0;
+    }
+    section.one {
+        height: auto;
+    }
+    .box {
+        background: none;
+    }
+    .title {
+        margin-top: 0;
+    }
+    .navbar {
+        top: 5px;
+    }
+    .navbar-header {
+        display: block;
+    }
+    .navbar-collapse {
+        border: 0px;
+        position: relative;
+        z-index: 1
+    }
+    .navbar-nav {
+        display: block;
+        font-size: 16px;
+        color: white;
+        margin: 0 auto;
+        text-align: center;
+        font-style: normal;
+        float: none;
+        width: 100%;
+        background: rgba(31, 31, 25);
+        border-radius: 1%;
+        padding: 0;
+    }
+    .navbar-default .navbar-nav>li>a {
+        margin: 0;
+    }
+    .hide-mobile {
+        display: none!important;
+    }
+    .logo {
+        margin: 0 auto;
+        display: inline-block;
+        width: 100px;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    .logo img {
+        width: 100px;
+    }
+    .inner-logo {
+        top: 20px;
+    }
+    .parent-box {
+        margin-left: 0;
+        width: auto;
+    }
+    .parent-box .owl-item {
+        margin-left: 4px;
+    }
+    .full-width.gallery * {
+        padding: 0;
+    }
+    .bg-image,
+    .passion-bg,
+    #chef .imageholder,
+    .reviews,
+    .pagedata {
+        height: auto;
+    }
+    #pass .imageholder {
+        width: auto;
+        padding-right: 20px;
+    }
+    #pass .imageholder img {
+        width: auto;
+        max-width: 100%;
+    }
+}
